@@ -1,10 +1,13 @@
 import java.util.Scanner;
-class simple {
+class perimeter {
 	public static void main(String[] args){
 		Scanner sc=new Scanner(System.in);
-		int p =sc.nextInt();
-		double r=sc.nextDouble();
-		double t = sc.nextDouble();
-		System.out.println((p*r*t)/100);
+		System.out.println("Enter length:");
+		double len =sc.nextDouble();
+		System.out.println("Enter width:");
+		double width=sc.nextDouble();
+		double per = (2*(len+width));
+		System.out.println("perimeter is:"+per);
+		
 	}
 }
